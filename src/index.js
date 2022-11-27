@@ -5,7 +5,7 @@ require('./database');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const SECRETCODE = "ASDAHDFLSJHFVSHDFKBDFKJBSDKJFBSKDJF";
+
 app.use(
     cors({
         origin: "https://tasksixclient.up.railway.app", // <-- location of the react app were connecting to
