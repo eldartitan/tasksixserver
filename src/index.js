@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(
     cors({
-        origin: "https://6382d8f857370917191765a8--gregarious-marshmallow-305de1.netlify.app/", // <-- location of the react app were connecting to
+        origin: "https://gregarious-marshmallow-305de1.netlify.app", // <-- location of the react app were connecting to
         credentials: true,
     })
 );
